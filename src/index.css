@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.horzLine{
+    @apply w-32 h-px bg-primary rounded-full
+}
+
+.setContainer{
+    @apply container mx-auto px-2 pb-12 pt-6
+}
+
+.footerHeading{
+    @apply text-white font-semibold pb-6 uppercase
+}
+
+.hoverFooterElm{
+    @apply hover:text-gray-300
+}
+
+.formInputElement{
+    @apply p-4 rounded-xl border border-primary w-full
+}
